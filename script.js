@@ -2,10 +2,10 @@
 
 function main() {
     d3.select('body').selectAll('div')
-        .data([1, 2, 3, 4, 5])
+        .data([1])
         .enter()
         .append('div')
-        
+
 
 
     
