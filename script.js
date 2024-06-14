@@ -1,11 +1,7 @@
 // U51313007
 
 function main() {
-    d3.select('body').selectAll('div')
-        .data([1])
-        .enter()
-        .append('div')
-
+    d3.select('body').append('div')
 
 
     
@@ -15,6 +11,6 @@ function main() {
     })
     .on('mouseout', function() {
         d3.select(this).style('background-color', 'blue');
-});
+    });
 }
 
