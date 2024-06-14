@@ -8,6 +8,6 @@ function main() {
     })
     .on('mouseout', function() {
         d3.select(this).style('background-color', 'steelblue');
-}
+});
 }
 
