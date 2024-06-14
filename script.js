@@ -1,4 +1,5 @@
 // U51313007
+
 document.addEventListener('DOMContentLoaded', function() {
     // Data points to be represented by div elements
     const dataPoints = [10, 20, 30, 40 ,50];
