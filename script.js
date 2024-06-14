@@ -1,7 +1,13 @@
 // U51313007
 
 function main() {
-    d3.select('body').append('div')
+    d3.select('body').selectAll('div')
+        .data([1, 2, 3, 4, 5])
+        .enter()
+        .append('div')
+        
+
+
     
     d3.selectAll('div')
     .on('mouseover', function() {
